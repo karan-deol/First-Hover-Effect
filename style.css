@@ -1,0 +1,70 @@
+body {
+    background: linear-gradient( 45deg, #eddcd2, #f0efeb);
+}
+
+.main {
+    height: max-content;
+    width: max-content;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+}
+
+.logo {
+    
+    width: max-content;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'American Captain';
+    border: black solid 1px;
+    border-radius: 10px;
+
+    padding: 0px 60px 0px 60px;
+
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+
+    position: relative;
+    right: 0;
+    bottom: 0;
+
+    background: linear-gradient(45deg, #e63946, #cb997e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.logo:hover {
+    box-shadow: 8px 8px black;
+    position: relative;
+    right: 5px;
+    bottom: 5px;
+    transition: all 300ms ease-out;
+
+    border: rgb(0, 0, 0) solid 2px;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.text {
+    font-size: large;
+    font-weight: bold;
+
+    padding: 5px;
+}
+
+.text:hover {
+    border-left: transparent;
+    border-right: transparent;
+    margin-top: 0;
+
+    transition: all 150ms ease-out;
+}
